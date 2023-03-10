@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    cursor: default;
+    color: white;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    background: url(../images/home-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    max-width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: black;
+    height: 5rem;
+    width: 100vw;
+}
+
+.logo {
+    margin-left: 3rem;
+    margin-top: 1.2rem;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.links a {
+    color: white;
+    transition: all .25s ease;
+}
+
+.links a:hover {
+    color: rgb(101, 110, 3);
+    border-bottom: 1px solid rgb(101, 110, 3);
+    padding-bottom: 4px;
+}
+
+.c-icone {
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+}
+
+.c-icone ion-icon {
+    font-size: 2rem;
+    margin:  0 20px;
+    transition: all .25s ease;
+}
+
+.c-icone ion-icon:hover {
+    border-bottom: 1px solid rgb(101, 110, 3);
+    color: rgb(101, 110, 3);
+    padding-bottom: 4px;
+}
+
+main {
+    display: flex;
+}
+
+ .C-tittle h1{
+    color: white;
+    font-size: 4rem;
+}
+
+hr {
+    border-bottom: rgb(54, 46, 46) solid 0.1px;
+    color: white;
+}
+
+.C-tittle p {
+    color: lightgrey;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+.C-tittle {
+    margin-top: 15rem;
+    margin-left: 5rem;
+    cursor: default;
+}
+
+.btn {
+    color: white;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #d3ad7f;
+}
+
+.btn:hover {
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.section-1 h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section-1 {
+    align-items: center;
+    margin-top: 15rem;
+    color: white;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.sobre-nos  {
+    align-items: center;
+    background-color: #13131a;
+    margin-top: 2em;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+
+span {
+    color: #d3ad7f;
+}
+
+.sobre-nos-tittle {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-nos-tittle h2 {
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+.sobre-nos-tittle p{
+    color: lightgray;
+    line-height: 1.6rem;
+    height: auto;
+}
+
+.section-2 h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+.container-card-1 {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;    
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-img {
+    border: 1px solid rgba(255, 255, 255, .3);
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.card-img img{
+    width: 120px;
+    height: auto;
+}
+
+.card-img h3{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.card-img h3, h2,p {
+    color: whitesmoke;
+}
+
+.container-card-2{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-img:hover{
+    transition: 0.15s all ease;
+    background-color: #ccc;
+}
+
+.card-img h2{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.section-3 h2{
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.container-kard-1 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kard-img {
+    border: 1px solid rgba(255, 255, 255, .3);
+    max-width: 100%;
+    width: 20rem;
+    height: 24rem;
+    padding: 5rem;
+}
+
+.icon-ion {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5rem;
+}
+
+.icon-ion span {
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    transition: all .25s ease;
+}
+
+.icon-ion span:hover {
+    background-color: #d3ad7f;
+}
+
+@media ( max-width: 667px ) {
+
+    .card-img {
+        margin-top: 2rem;
+    }
+    
+    .tittle h1{
+        font-size: 3rem;
+    }
+
+    .section-1 h1{
+        font-size: 2.5rem;
+    }
+
+    .sobre-nos-tittle h2 {
+         font-size: 2.5rem;
+    }
+
+    .sobre-nos-tittle p {
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
