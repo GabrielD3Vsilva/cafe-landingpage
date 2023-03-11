@@ -272,7 +272,7 @@ span {
     background-color: #d3ad7f;
 }
 
-@media ( max-width: 667px ) {
+@media ( max-width: 720px ) {
 
     .card-img {
         margin-top: 2rem;
