@@ -276,7 +276,7 @@ span {
     background-color: #d3ad7f;
 }
 
-@media ( max-width: 720px ) {
+@media ( max-width: 768px ) {
 
     .background {
         background: url(../images/home-img1.png);
@@ -318,7 +318,7 @@ span {
 
     .menu-icon {
         display: inline;
-        
+
     }
 }
 
