@@ -39,6 +39,10 @@ header {
     width: 100vw;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .logo {
     margin-left: 3rem;
     margin-top: 1.2rem;
@@ -274,6 +278,10 @@ span {
 
 @media ( max-width: 720px ) {
 
+    .background {
+        background: url(../images/home-img1.png);
+    }
+
     .card-img {
         margin-top: 2rem;
     }
@@ -302,6 +310,14 @@ span {
 
     .kard-img {
         margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-right: 50px;
+    }
+
+    .menu-icon {
+        display: inline-block;
     }
 }
 
