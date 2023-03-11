@@ -34,7 +34,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background: black;
+    background-color: black;
     height: 5rem;
     width: 100vw;
 }
@@ -287,14 +287,22 @@ span {
     }
 
     .sobre-nos-tittle h2 {
-         font-size: 2.5rem;
+         font-size: 2rem;
+         margin-right: 15px;
     }
 
     .sobre-nos-tittle p {
         font-size: 0.8rem;
+        margin-right: 20px;
     }
 
+    .links {
+        display: none;
+    }
 
+    .kard-img {
+        margin-bottom: 2rem;
+    }
 }
 
 
