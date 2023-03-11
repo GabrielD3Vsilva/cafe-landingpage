@@ -317,7 +317,7 @@ span {
     }
 
     .menu-icon {
-        display: inline-block;
+        display: flex;
     }
 }
 
